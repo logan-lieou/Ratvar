@@ -16,35 +16,11 @@ a2, b2, c2, d2, e2, f2, g2, h2,
 a1, b1, c1, d1, e1, f1, g1, h1
 };
 
-inline bool GetBit(Bitboard b, int s) {
-    return (b & (1ULL << s)) ? 1 : 0;
-}
-
-inline void SetBit(Bitboard &b, Square s) {
-    // move bit 1ULL s squares on board b
-    b |= (1ULL << s);
-}
-
-inline void FlipBit(Bitboard &b, Square s) {
-    b ^= (1ULL << s);
-}
-
-inline void PopBit(Bitboard &b, Square s) {
-    if(GetBit(b, s)) {
-        FlipBit(b, s);
-    }
-}
-
-inline void PrintBitboard(Bitboard b) {
-    for (int i = 0; i < 8; i++) {
-        for (int j = 0; j < 8; j++) {
-            int square = i * 8 + j;
-            printf(" %d ", GetBit(b, square));
-        }
-        printf("\n");
-    }
-
-    printf("\nBitboard: %lu\n\n", b);
-}
+// prototypes
+bool GetBit(Bitboard b, int s);
+void SetBit(Bitboard &b, Square s);
+void FlipBit(Bitboard &b, Square s);
+void PopBit(Bitboard &b, Square s);
+void PrintBitboard(Bitboard b);
 
 #endif

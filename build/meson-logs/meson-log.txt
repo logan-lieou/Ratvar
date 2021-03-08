@@ -1,6 +1,6 @@
-Build started at 2021-03-08T03:12:38.966958
+Build started at 2021-03-08T04:28:50.240628
 Main binary: /usr/bin/python3
-Build Options: 
+Build Options: -Dbackend=ninja
 Python system: Linux
 The Meson build system
 Version: 0.55.3
@@ -11,41 +11,9 @@ None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global fl
 None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
 Project name: Ratvar
 Project version: undefined
-None of 'CXX' are defined in the environment, not changing global flags.
-None of 'CXXFLAGS' are defined in the environment, not changing global flags.
-None of 'LDFLAGS' are defined in the environment, not changing global flags.
-None of 'CPPFLAGS' are defined in the environment, not changing global flags.
-None of 'CXX_LD' are defined in the environment, not changing global flags.
-Sanity testing C++ compiler: c++
-Is cross compiler: False.
-None of 'CXX_LD' are defined in the environment, not changing global flags.
-Sanity check compiler command line: c++ /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.cc -o /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
-Sanity check compile stdout:
-
------
-Sanity check compile stderr:
-
------
-Running test binary command: /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.exe
 C++ compiler for the build machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)")
 C++ linker for the build machine: c++ ld.bfd 2.35-18
 None of 'AR' are defined in the environment, not changing global flags.
-None of 'CXX' are defined in the environment, not changing global flags.
-None of 'CXXFLAGS' are defined in the environment, not changing global flags.
-None of 'LDFLAGS' are defined in the environment, not changing global flags.
-None of 'CPPFLAGS' are defined in the environment, not changing global flags.
-None of 'CXX_LD' are defined in the environment, not changing global flags.
-Sanity testing C++ compiler: c++
-Is cross compiler: False.
-None of 'CXX_LD' are defined in the environment, not changing global flags.
-Sanity check compiler command line: c++ /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.cc -o /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
-Sanity check compile stdout:
-
------
-Sanity check compile stderr:
-
------
-Running test binary command: /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.exe
 C++ compiler for the host machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)")
 C++ linker for the host machine: c++ ld.bfd 2.35-18
 None of 'AR' are defined in the environment, not changing global flags.
@@ -55,8 +23,6 @@ Host machine cpu family: x86_64
 Host machine cpu: x86_64
 Target machine cpu family: x86_64
 Target machine cpu: x86_64
-Downloading gtest source from https://github.com/google/googletest/archive/release-1.10.0.zip
-Downloading gtest patch from https://wrapdb.mesonbuild.com/v1/projects/gtest/1.10.0/1/get_zip
 
 Executing subproject gtest method meson 
 
@@ -68,7 +34,7 @@ C++ compiler for the build machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (
 C++ linker for the build machine: c++ ld.bfd 2.35-18
 C++ compiler for the host machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)")
 C++ linker for the host machine: c++ ld.bfd 2.35-18
-Run-time dependency threads found: YES
+Dependency threads found: YES unknown (cached)
 Dependency threads found: YES unknown (cached)
 Dependency threads found: YES unknown (cached)
 Dependency threads found: YES unknown (cached)
@@ -84,8 +50,8 @@ Ratvar undefined
 
 Found ninja-1.10.2 at /usr/bin/ninja
 Running compile:
-Working directory:  /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpckjppo00
-Command line:  c++ /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpckjppo00/testfile.cpp -o /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpckjppo00/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+Working directory:  /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpt7zgdm_l
+Command line:  c++ /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpt7zgdm_l/testfile.cpp -o /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpt7zgdm_l/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
 
 Code:
  

@@ -41,12 +41,17 @@ build tests/Ratvar.p/bitboard_test.cc.o: cpp_COMPILER ../tests/bitboard_test.cc
  DEPFILE_UNQUOTED = tests/Ratvar.p/bitboard_test.cc.o.d
  ARGS = -Itests/Ratvar.p -Itests -I../tests -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -pthread -isystem../subprojects/googletest-release-1.10.0/googletest -isystemsubprojects/googletest-release-1.10.0/googletest -isystem../subprojects/googletest-release-1.10.0/googletest/include
 
+build tests/Ratvar.p/.._src_bitboard.cc.o: cpp_COMPILER ../tests/../src/bitboard.cc
+ DEPFILE = tests/Ratvar.p/.._src_bitboard.cc.o.d
+ DEPFILE_UNQUOTED = tests/Ratvar.p/.._src_bitboard.cc.o.d
+ ARGS = -Itests/Ratvar.p -Itests -I../tests -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -pthread -isystem../subprojects/googletest-release-1.10.0/googletest -isystemsubprojects/googletest-release-1.10.0/googletest -isystem../subprojects/googletest-release-1.10.0/googletest/include
+
 build tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o: cpp_COMPILER ../subprojects/googletest-release-1.10.0/googletest/src/gtest-all.cc
  DEPFILE = tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o.d
  DEPFILE_UNQUOTED = tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o.d
  ARGS = -Itests/Ratvar.p -Itests -I../tests -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -pthread -isystem../subprojects/googletest-release-1.10.0/googletest -isystemsubprojects/googletest-release-1.10.0/googletest -isystem../subprojects/googletest-release-1.10.0/googletest/include
 
-build tests/Ratvar: cpp_LINKER tests/Ratvar.p/bitboard_test.cc.o tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o
+build tests/Ratvar: cpp_LINKER tests/Ratvar.p/bitboard_test.cc.o tests/Ratvar.p/.._src_bitboard.cc.o tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o
  LINK_ARGS = -Wl,--as-needed -Wl,--no-undefined -pthread
 
 # Test rules
@@ -109,13 +114,13 @@ build meson-clean: CUSTOM_COMMAND PHONY
  COMMAND = /usr/bin/ninja -t clean
  description = Cleaning
 
-build build.ninja: REGENERATE_BUILD ../subprojects/googletest-release-1.10.0/googletest/meson.build ../subprojects/googletest-release-1.10.0/googlemock/meson.build ../subprojects/googletest-release-1.10.0/meson.build ../meson.build ../tests/meson.build meson-private/coredata.dat
+build build.ninja: REGENERATE_BUILD ../subprojects/googletest-release-1.10.0/googlemock/meson.build ../tests/meson.build ../subprojects/googletest-release-1.10.0/googletest/meson.build ../subprojects/googletest-release-1.10.0/meson.build ../meson.build meson-private/coredata.dat
  pool = console
 
 build reconfigure: REGENERATE_BUILD PHONY
  pool = console
 
-build ../subprojects/googletest-release-1.10.0/googletest/meson.build ../subprojects/googletest-release-1.10.0/googlemock/meson.build ../subprojects/googletest-release-1.10.0/meson.build ../meson.build ../tests/meson.build meson-private/coredata.dat: phony 
+build ../subprojects/googletest-release-1.10.0/googlemock/meson.build ../tests/meson.build ../subprojects/googletest-release-1.10.0/googletest/meson.build ../subprojects/googletest-release-1.10.0/meson.build ../meson.build meson-private/coredata.dat: phony 
 
 default all
 

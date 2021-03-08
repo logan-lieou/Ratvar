@@ -7,6 +7,12 @@
   },
   {
     "directory": "/home/loganj/Projects/ForcedCode/Chess/build",
+    "command": "c++ -Itests/Ratvar.p -Itests -I../tests -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -pthread -isystem../subprojects/googletest-release-1.10.0/googletest -isystemsubprojects/googletest-release-1.10.0/googletest -isystem../subprojects/googletest-release-1.10.0/googletest/include -MD -MQ tests/Ratvar.p/.._src_bitboard.cc.o -MF tests/Ratvar.p/.._src_bitboard.cc.o.d -o tests/Ratvar.p/.._src_bitboard.cc.o -c ../src/bitboard.cc",
+    "file": "../src/bitboard.cc",
+    "output": "tests/Ratvar.p/.._src_bitboard.cc.o"
+  },
+  {
+    "directory": "/home/loganj/Projects/ForcedCode/Chess/build",
     "command": "c++ -Itests/Ratvar.p -Itests -I../tests -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -g -pthread -isystem../subprojects/googletest-release-1.10.0/googletest -isystemsubprojects/googletest-release-1.10.0/googletest -isystem../subprojects/googletest-release-1.10.0/googletest/include -MD -MQ tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o -MF tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o.d -o tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o -c ../subprojects/googletest-release-1.10.0/googletest/src/gtest-all.cc",
     "file": "../subprojects/googletest-release-1.10.0/googletest/src/gtest-all.cc",
     "output": "tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o"
