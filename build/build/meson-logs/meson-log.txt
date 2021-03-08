@@ -1,0 +1,64 @@
+Build started at 2021-03-08T03:11:53.156166
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.55.3
+Source dir: /home/loganj/Projects/ForcedCode/Chess
+Build dir: /home/loganj/Projects/ForcedCode/Chess/build/build
+Build type: native build
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: Ratvar
+Project version: undefined
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: c++ /home/loganj/Projects/ForcedCode/Chess/build/build/meson-private/sanitycheckcpp.cc -o /home/loganj/Projects/ForcedCode/Chess/build/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/loganj/Projects/ForcedCode/Chess/build/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)")
+C++ linker for the build machine: c++ ld.bfd 2.35-18
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: c++ /home/loganj/Projects/ForcedCode/Chess/build/build/meson-private/sanitycheckcpp.cc -o /home/loganj/Projects/ForcedCode/Chess/build/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/loganj/Projects/ForcedCode/Chess/build/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)")
+C++ linker for the host machine: c++ ld.bfd 2.35-18
+None of 'AR' are defined in the environment, not changing global flags.
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+
+../tests/meson.build:7:11: ERROR: Expecting rparen got true.
+			install true)
+           ^
+For a block that started at 5,10
+executable('Ratvar', sources,
+          ^

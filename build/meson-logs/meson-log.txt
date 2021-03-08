@@ -1,0 +1,100 @@
+Build started at 2021-03-08T03:12:38.966958
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.55.3
+Source dir: /home/loganj/Projects/ForcedCode/Chess
+Build dir: /home/loganj/Projects/ForcedCode/Chess/build
+Build type: native build
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: Ratvar
+Project version: undefined
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: c++ /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.cc -o /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)")
+C++ linker for the build machine: c++ ld.bfd 2.35-18
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: c++ /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.cc -o /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/loganj/Projects/ForcedCode/Chess/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)")
+C++ linker for the host machine: c++ ld.bfd 2.35-18
+None of 'AR' are defined in the environment, not changing global flags.
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Downloading gtest source from https://github.com/google/googletest/archive/release-1.10.0.zip
+Downloading gtest patch from https://wrapdb.mesonbuild.com/v1/projects/gtest/1.10.0/1/get_zip
+
+Executing subproject gtest method meson 
+
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Project name: gtest
+Project version: 1.10.0
+C++ compiler for the build machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)")
+C++ linker for the build machine: c++ ld.bfd 2.35-18
+C++ compiler for the host machine: c++ (gcc 10.2.1 "c++ (GCC) 10.2.1 20201125 (Red Hat 10.2.1-9)")
+C++ linker for the host machine: c++ ld.bfd 2.35-18
+Run-time dependency threads found: YES
+Dependency threads found: YES unknown (cached)
+Dependency threads found: YES unknown (cached)
+Dependency threads found: YES unknown (cached)
+Build targets in project: 0
+Subproject gtest finished.
+
+Build targets in project: 1
+
+Ratvar undefined
+
+  Subprojects
+    gtest: YES
+
+Found ninja-1.10.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpckjppo00
+Command line:  c++ /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpckjppo00/testfile.cpp -o /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpckjppo00/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-redhat-linux/10/
+programs: =/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/10/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/bin/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/bin/
+libraries: =/usr/lib/gcc/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../x86_64-redhat-linux/10/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../lib64/:/lib/x86_64-redhat-linux/10/:/lib/../lib64/:/usr/lib/x86_64-redhat-linux/10/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../../x86_64-redhat-linux/lib/:/usr/lib/gcc/x86_64-redhat-linux/10/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+None of 'STRIP' are defined in the environment, not changing global flags.
+None of 'STRIP' are defined in the environment, not changing global flags.

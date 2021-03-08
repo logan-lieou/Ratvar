@@ -1,0 +1,4 @@
+# ninja log v5
+0	723	1615194776136284292	tests/Ratvar.p/bitboard_test.cc.o	a81d1eb9f275b4d6
+1	3187	1615194778600255856	tests/Ratvar.p/.._subprojects_googletest-release-1.10.0_googletest_src_gtest-all.cc.o	582fd5b1913f1e37
+3187	3319	1615194778734254310	tests/Ratvar	ae03d2a223e3668c
