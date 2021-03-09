@@ -1,4 +1,4 @@
-Build started at 2021-03-08T04:28:50.240628
+Build started at 2021-03-09T01:08:26.528776
 Main binary: /usr/bin/python3
 Build Options: -Dbackend=ninja
 Python system: Linux
@@ -41,7 +41,7 @@ Dependency threads found: YES unknown (cached)
 Build targets in project: 0
 Subproject gtest finished.
 
-Build targets in project: 1
+Build targets in project: 2
 
 Ratvar undefined
 
@@ -50,8 +50,8 @@ Ratvar undefined
 
 Found ninja-1.10.2 at /usr/bin/ninja
 Running compile:
-Working directory:  /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpt7zgdm_l
-Command line:  c++ /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpt7zgdm_l/testfile.cpp -o /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmpt7zgdm_l/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+Working directory:  /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmp9xewd25k
+Command line:  c++ /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmp9xewd25k/testfile.cpp -o /home/loganj/Projects/ForcedCode/Chess/build/meson-private/tmp9xewd25k/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
 
 Code:
  
