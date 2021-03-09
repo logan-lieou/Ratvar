@@ -2,6 +2,7 @@
 #define BITBOARD_H_INCLUDED
 
 #include <iostream>
+#include <cctype>
 
 typedef uint64_t Bitboard;
 
