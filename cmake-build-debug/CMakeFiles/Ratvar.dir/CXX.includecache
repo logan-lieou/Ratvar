@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loganj/Projects/C++_Projects/Ratvar/src/bitboard.h
+iostream
+-
+cctype
+-
+
+/home/loganj/Projects/C++_Projects/Ratvar/src/pawns.h
+bitboard.h
+/home/loganj/Projects/C++_Projects/Ratvar/src/bitboard.h
+iostream
+-
+
+/home/loganj/Projects/C++_Projects/Ratvar/tests/tests.cc
+../src/bitboard.h
+/home/loganj/Projects/C++_Projects/Ratvar/src/bitboard.h
+../src/pawns.h
+/home/loganj/Projects/C++_Projects/Ratvar/src/pawns.h
+gtest/gtest.h
+-
+

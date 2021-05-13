@@ -15,3 +15,5 @@ CMake or Basel but I decided to use meson because it's the easiest to work with 
 The project also uses [gtest](https://github.com/google/googletest) for testing.
 
 Don't expect this to be done anytime soon lmao.
+
+Okay we're currently going to migrate this to using CMake.
