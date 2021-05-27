@@ -8,9 +8,7 @@ To find out more about writing a chess engine you can check out the chess progra
 
 
 ## Additional Notes 🗒️
-
-This is using the [meson build system](https://mesonbuild.com/) so if you want to compile the code for yourself you'll have to use meson, I was thinking about using
-CMake or Basel but I decided to use meson because it's the easiest to work with for me.
+Project will most likely move to using Julia in the near future.
 
 The project also uses [gtest](https://github.com/google/googletest) for testing.
 
