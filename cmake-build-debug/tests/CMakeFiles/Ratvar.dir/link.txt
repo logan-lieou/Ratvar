@@ -1,1 +1,0 @@
-/usr/lib64/ccache/c++  -g  -rdynamic CMakeFiles/Ratvar.dir/bitboard_test.o CMakeFiles/Ratvar.dir/pawns_test.o  -o Ratvar  -lGTEST_LIBRARIES 
